@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+  <header>
+    <h1>SURYA M</h1>
+    <p>Web Developer & Designer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Surya, a passionate web developer with experience in creating modern, responsive websites and applications. I enjoy solving problems and creating beautiful interfaces.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio site built with HTML, CSS, and JavaScript to showcase my projects and skills.A portfolio website is a personal or professional online platform used to showcase an individual's work, skills, achievements, and background. It serves as a digital resume and visual gallery, often featuring projects, case studies, and contact information. Designed with clean layout and user-friendly navigation, a portfolio site helps freelancers, creatives, developers, and professionals establish their online presence, attract clients or employers, and demonstrate expertise in their field. With responsive design and interactive elements, it offers a dynamic way to make a strong first impression in the digital world.
+A well-crafted portfolio website not only highlights your technical skills and creativity but also reflects your personality and professionalism. It often includes an "About Me" section, a detailed project gallery, testimonials, and downloadable resumes or CVs. With the growing importance of online visibility, having a personal portfolio is essential for standing out in competitive industries. It can also be optimized for SEO to increase discoverability by potential employers or clients. Whether you're a web developer, designer, writer, or artist, a portfolio website is a powerful tool to market your talent and grow your career.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>A weather forecasting app that fetches data from a public API and displays it in a clean UI.A Weather App is a digital application designed to provide users with real-time weather information for any location. It typically displays essential data such as current temperature, humidity, wind speed, precipitation, and weather conditions (e.g., sunny, cloudy, rainy, or snowy). Most weather apps also include forecasts for upcoming days, hourly updates, and interactive features like radar maps and location tracking. Built using technologies like HTML, CSS, and JavaScript for the frontend, and APIs such as OpenWeatherMap or WeatherAPI for data, the app fetches weather updates in real-time and presents them in a visually appealing and user-friendly interface.
+
+The goal of a Weather App is to make it easy for users to plan their day or week by staying informed about changing weather patterns. Some advanced versions may also provide alerts for severe weather conditions such as storms, heatwaves, or snowfall, ensuring user safety and preparedness. These apps are especially helpful for travelers, outdoor enthusiasts, event planners, and daily commuters.
+
+From a development perspective, building a weather app is a great way to learn how to work with APIs, manage asynchronous data fetching, and create responsive designs that adapt to different screen sizes. Developers often implement geolocation features to automatically detect the user's location, and allow manual search for weather in other cities or countries. Features like dark mode, animated icons, and personalized settings can further enhance the user experience.
+
+In summary, a Weather App is a practical and informative tool that combines real-time data access with clean design to deliver accurate weather forecasts. It serves as both a useful application for everyday life and a strong showcase project for developers looking to demonstrate their skills in API integration, UI design, and responsive web development.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: suryamurali987654321@example.com</p>
+      <a href="https://www.linkedin.com/in/murali-surya-23a227269?trk=contact-info">LinkedIn</a>
+      
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Surya M. All rights reserved.
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+
+</body>
+</html>
